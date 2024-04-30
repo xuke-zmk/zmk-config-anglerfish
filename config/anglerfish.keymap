@@ -23,6 +23,15 @@
 };
 
 / {
+    macros {
+        bootload_macro: bootload_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bootloader>;
+            label = "BOOTLOAD_MACRO";
+        };
+    };
+
     combos {
         compatible = "zmk,combos";
 

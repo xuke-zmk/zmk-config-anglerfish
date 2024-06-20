@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano_v1
+  - board: nice_nano
     shield: anglerfish_left
-  - board: nice_nano_v1
+  - board: nice_nano
     shield: anglerfish_right
-  - board: nice_nano_v1
+  - board: nice_nano
     shield: settings_reset

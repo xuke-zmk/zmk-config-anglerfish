@@ -39,7 +39,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:navigation-variant$$'}
   - $$mdi:keyboard-space$$
   '1':
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:backspace-reverse-outline$$'}
   - Q
   - W
   - E
@@ -234,7 +234,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '6':
-  - {t: '*', h: '$$mdi:backspace$$'}
+  - {t: '$$mdi:backspace$$', h: '*'}
   - '7'
   - '8'
   - '9'
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '*', h: '$$mdi:keyboard-return$$'}
+  - {t: '$$mdi:keyboard-return$$', h: /}
   - '4'
   - '5'
   - '6'

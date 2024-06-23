@@ -147,7 +147,7 @@
 &hm ESC Q       &kp W           &kp E               &kp R             &kp T                   &kp Y  &kp U              &kp I                &kp O                    &hm LG(LS(V)) P
 &hm CAPSLOCK A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G                   &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L          &as COLON SEMICOLON
 &hm LCTRL Z     &kp X           &kp C               &kp V             &kp B                   &kp N  &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH
-                                &kp SPACE           &mo2tg1           &mo3spa 3 SPACE  &mo 1         &mo 5              &kp SPACE            &ltq 1 DELETE            &kp SPACE
+                                &kp SPACE           &mo2tg1           &mo3spa 3 SPACE  &mo 6         &mo 5              &kp SPACE            &ltq 1 DELETE            &kp SPACE
             >;
 
             sensor-bindings =
@@ -158,10 +158,10 @@
         layer_1 {
             label = "Lower";
             bindings = <
-&kp DEL        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp T         &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp H          &kp A         &kp S         &kp D         &kp U         &kp C_BRIGHTNESS_INC  &bt BT_CLR    &trans        &trans        &trans
-&kp LC(LSHFT)  &kp Z         &kp C         &kp V         &kp B         &kp C_BRI_DEC         &trans        &trans        &trans        &trans
-                             &trans        &tg1 1 LG(D)  &mo 7  &mo 6                        &trans        &trans        &trans        &trans
+&kp DEL        &kp Q  &kp W   &kp E         &kp T         &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp H          &kp A  &kp S   &kp D         &kp U         &kp C_BRIGHTNESS_INC  &bt BT_CLR    &trans        &trans        &trans
+&kp LC(LSHFT)  &kp Z  &kp C   &kp V         &kp B         &kp C_BRI_DEC         &trans        &trans        &trans        &trans
+                      &trans  &tg1 1 LG(D)  &mo 7  &mo 6                        &trans        &trans        &trans        &trans
             >;
 
             sensor-bindings =
@@ -172,10 +172,10 @@
         layer_2 {
             label = "Raise";
             bindings = <
-&kp EXCL      &kp AT        &kp HASH  &kp DLLR  &kp PRCNT               &kp CARET  &kp AMPS         &kp ASTERISK  &kp LPAR                        &kp RPAR
-&kp ESCAPE    &kp CAPSLOCK  &kp HOME  &kp END   &kp UNDERSCORE          &kp MINUS  &kp RIGHT_SHIFT  &kp PAGE_UP   &kp PAGE_DOWN                   &as PIPE NON_US_BACKSLASH
-&out OUT_TOG  &bootloader   &trans    &trans    &kp TILDE               &kp GRAVE  &as PLUS EQUAL   &kp SQT       &as DOUBLE_QUOTES SINGLE_QUOTE  &kp DELETE
-                            &trans    &trans    &trans          &trans             &trans           &trans        &trans                          &trans
+&kp F1        &kp F2        &kp F3    &kp F4   &kp F5                  &kp F6     &kp F7           &kp F8       &kp F9                          &kp F10
+&kp ESCAPE    &kp CAPSLOCK  &kp HOME  &kp END  &kp UNDERSCORE          &kp MINUS  &kp RIGHT_SHIFT  &kp PAGE_UP  &kp PAGE_DOWN                   &kp F11
+&out OUT_TOG  &bootloader   &trans    &trans   &kp TILDE               &kp GRAVE  &as PLUS EQUAL   &kp SQT      &as DOUBLE_QUOTES SINGLE_QUOTE  &kp F12
+                            &trans    &trans   &trans          &trans             &trans           &trans       &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;

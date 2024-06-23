@@ -49,7 +49,7 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - H
+  - {t: H, h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
   - D
@@ -234,7 +234,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '6':
-  - '*'
+  - {t: '*', h: '$$mdi:backspace$$'}
   - '7'
   - '8'
   - '9'
@@ -244,7 +244,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: /, s: '?'}
+  - {t: '*', h: '$$mdi:keyboard-return$$'}
   - '4'
   - '5'
   - '6'

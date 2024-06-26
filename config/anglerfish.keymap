@@ -79,7 +79,16 @@
             timeout-ms = <50>;
         };
     };
-
+    
+    macros {
+        dongle_bootload_macro: bootload_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bootloader>;
+            label = "BOOTLOAD_MACRO";
+        };
+    };
+   
     behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";

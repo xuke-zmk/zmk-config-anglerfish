@@ -127,20 +127,20 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Gui+ A
-  - Gui+ S
-  - Gui+ D
-  - Gui+ F
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - F6
   - F7
   - F8
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
+  - {t: Z, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: X, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
   - '{'
   - '}'
   - F1
@@ -315,9 +315,9 @@ combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
 - p: [2, 3]
-  k: '['
+  k: {t: '[', s: '{'}
 - p: [7, 6]
-  k: ']'
+  k: {t: ']', s: '}'}
 - p: [12, 13]
   k: (
 - p: [16, 17]
@@ -327,6 +327,6 @@ combos:
 - p: [26, 27]
   k: '}'
 - p: [5, 6]
-  k: \
+  k: {t: \, s: '|'}
 - p: [3, 4]
   k: '|'

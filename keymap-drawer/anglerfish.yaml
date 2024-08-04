@@ -33,7 +33,7 @@ layers:
   - B
   - {t: '$$mdi:backspace$$', h: '$$mdi:navigation-variant$$'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:numeric$$'}
-  - A
+  - D
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:symbol$$'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:navigation-variant$$'}

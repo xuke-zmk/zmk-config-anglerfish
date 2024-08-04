@@ -64,7 +64,7 @@
     pinctrl-0 = <&spi0_default>;
     pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
-    csb-gpios = <&gpio0 8 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&gpio0 8 GPIO_ACTIVE_LOW>;
 
     epd: il0323@0 {
         compatible = "gooddisplay,il0323";

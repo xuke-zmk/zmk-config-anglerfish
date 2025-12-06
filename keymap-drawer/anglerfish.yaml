@@ -1,5 +1,6 @@
+layout: {zmk_keyboard: anglerfish}
 layers:
-  '0':
+  Base:
   - Q
   - W
   - E
@@ -38,7 +39,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:numeric$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:navigation-variant$$'}
   - $$mdi:keyboard-space$$
-  '1':
+  Lower:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
@@ -77,7 +78,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  Raise:
   - '!'
   - '@'
   - '#'
@@ -116,7 +117,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
+  shortcut:
   - '1'
   - '2'
   - '3'
@@ -177,7 +178,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '0', h: toggle}
+  - {t: Base, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '6'
   - '7'
@@ -237,9 +238,9 @@ combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
 - p: [2, 3]
-  k: '['
+  k: {t: '[', s: '{'}
 - p: [7, 6]
-  k: ']'
+  k: {t: ']', s: '}'}
 - p: [12, 13]
   k: (
 - p: [16, 17]
@@ -249,6 +250,6 @@ combos:
 - p: [26, 27]
   k: '}'
 - p: [5, 6]
-  k: \
+  k: {t: \, s: '|'}
 - p: [3, 4]
   k: '|'

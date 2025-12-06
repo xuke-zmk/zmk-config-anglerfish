@@ -14,7 +14,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: anglerfish_left
+    shield: anglerfish_left  lpm_view
   - board: nice_nano_v2
     shield: anglerfish_right
   - board: nice_nano_v2

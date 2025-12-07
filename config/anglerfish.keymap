@@ -203,14 +203,5 @@
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
-
-        layer_6 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
-            >;
-        };
     };
 };
